@@ -19,6 +19,10 @@ SQL-based exploratory data analysis of a global retail superstore dataset using 
 │   ├── 01_create_table.sql
 │   ├── 02_data_validation.sql
 │   └── 03_eda.sql
+├── query_outputs/
+│   ├── 01_create_table.pdf
+|   └── 02_data_validation_outputs.pdf
+│   └── 03_eda_outputs.pdf
 ├── screenshots/
 │   ├── dashboard_1_overview.png
 │   ├── dashboard_2_region_customer.png
@@ -174,6 +178,7 @@ Exported SQL query results as CSV and built three dashboards in Excel 365:
 7. **Run the analysis**
    - Run `03_eda.sql` — execute each query individually using F5 in pgAdmin
    - Export results as CSV using the download button in the results panel
+   - Query screenshots and outputs are available in the `query_outputs/` folder for reference without running the SQL locally.
 
 8. **View the dashboard**
    - Open `superstore_sales_dashboard.xlsx` in Excel 365
