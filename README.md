@@ -1,4 +1,4 @@
-# superstore-sales-analysis
+# 🛒 Superstore Sales Analysis — SQL Project
 SQL-based exploratory data analysis of a global retail superstore dataset using PostgreSQL and pgAdmin. The project covers data validation, cleaning, and business insight generation across sales, customers, products, and regions — visualised in an interactive Excel dashboard.
 
 ---
@@ -13,6 +13,8 @@ SQL-based exploratory data analysis of a global retail superstore dataset using 
 
 ## 📂 Project Structure
 
+```
+
 ├── sql/
 │   ├── 01_create_table.sql
 │   ├── 02_data_validation.sql
@@ -23,6 +25,8 @@ SQL-based exploratory data analysis of a global retail superstore dataset using 
 │   └── dashboard_3_product_discount.png
 ├── superstore_sales_dashboard.xlsx
 └── README.md
+
+```
 
 ---
 
@@ -51,7 +55,7 @@ SQL-based exploratory data analysis of a global retail superstore dataset using 
 - Validated date ranges, discount bounds (0–1), and categorical consistency
 - Found no null values or duplicate row IDs
 - Identified 2,465 future order dates — investigated and confirmed the dataset legitimately extends through December 2026, not a data quality issue
-- decided to exclude 2026 data from analysis as the year is incomplete and would skew year-over-year comparisons
+- Decided to exclude 2026 data from analysis as the year is incomplete and would skew year-over-year comparisons
 
 ### 3. Exploratory Data Analysis
 
@@ -133,7 +137,7 @@ Exported SQL query results as CSV and built three dashboards in Excel 365:
 - **California** leads US states in total sales while **Ontario** tops Canadian provinces, highlighting the two key geographic revenue hubs across North America
 - **Consumer segment** drives the highest sales volume across all three years (53%)
 - Revenue appears to be well distributed across customers — the **top 10 customers** account for approximately 8.9% ($0.14M out of $1.58M total), suggesting limited dependency on any single client
-- **Technology** leads in both total revenue and total profit, while **Office Supplies** edges ahead on profit margin at 17.63% vs 16.87%. **Furniture** significantly underperforms with only a 3.06% margin despite being the second highest revenue category
+- **Technology** leads in both total revenue ($567K) and total profit ($96K), while **Office Supplies** edges ahead on profit margin at 17.63% vs 16.87%. **Furniture** significantly underperforms with only a 3.06% margin despite being the second highest revenue category at $535K
 - Sub-categories such as  **Tables, Bookcases, and Supplies** are loss making despite significant sales volume
 - **Discounts above 20%** consistently result in negative average profit — heavy discounting is hurting the business
 
