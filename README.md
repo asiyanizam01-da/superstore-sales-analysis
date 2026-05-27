@@ -15,19 +15,23 @@ SQL-based exploratory data analysis of a global retail superstore dataset using 
 
 ```
 
+├── data/
+│   ├── superstore_sales_orders.csv
 ├── sql/
 │   ├── 01_create_table.sql
 │   ├── 02_data_validation.sql
 │   └── 03_eda.sql
 ├── query_outputs/
 │   ├── 01_create_table.pdf
-|   └── 02_data_validation_outputs.pdf
+│   └── 02_data_validation_outputs.pdf
 │   └── 03_eda_outputs.pdf
 ├── screenshots/
 │   ├── dashboard_1_overview.png
 │   ├── dashboard_2_region_customer.png
 │   └── dashboard_3_product_discount.png
-├── superstore_sales_dashboard.xlsx
+├── dashboard/
+│   ├── superstore_sales_dashboard.xlsx
+│   ├── superstore_sales_dashboard.pdf
 └── README.md
 
 ```
