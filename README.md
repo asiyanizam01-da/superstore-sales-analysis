@@ -30,8 +30,8 @@ SQL-based exploratory data analysis of a global retail superstore dataset using 
 │   ├── dashboard_2_region_customer.png
 │   └── dashboard_3_product_discount.png
 ├── dashboard/
-│   ├── superstore_sales_dashboard.xlsx
-│   ├── superstore_sales_dashboard.pdf
+│   ├── superstore_sales_analysis_dashboard.xlsx
+│   ├── superstore_sales_analysis_dashboard.pdf
 └── README.md
 
 ```
@@ -185,7 +185,7 @@ Exported SQL query results as CSV and built three dashboards in Excel 365:
    - Query screenshots and outputs are available in the `query_outputs/` folder for reference without running the SQL locally.
 
 8. **View the dashboard**
-   - Open `superstore_sales_dashboard.xlsx` in Excel 365
+   - Open `superstore_sales_analysis_dashboard.xlsx` in Excel 365
 
 ---
 
